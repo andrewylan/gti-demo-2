@@ -1,5 +1,37 @@
 {
   "settings": [
+    {
+      "id": 1,
+      "company":"GoTrustID Inc.",
+      "server-url":"https://adfs.gotrustid.com/mfa",
+      "user-portal-url":"https://adfs.gotrustid.com/userportal",
+      "google-fcm":"default",
+      "sms":{
+        "setting":"disable",
+        "resending":60
+      },
+      "email":"disable",
+      "message-template":"[otp] sending from GoTrustID Inc.",
+      "ttl":{
+        "register":120,
+        "authenticate":120
+      },
+      "security-question":{
+        "minimum":1
+      },
+      "ldap":{
+        "enabled":true,
+        "host":"192.168.0.253",
+        "base-dn":"OU=sales, DC=gotrustid, DC=com",
+        "binding-dn":"OU=Administrator, DC=gotrustid, DC=com",
+        "binding-password":"pw12345",
+        "security":{
+          "ssl":false
+        },
+        "group":"GoTrustID Business Service",
+        "sync":30
+      }
+    }
   ],
   "logs": [
     {
@@ -64,5 +96,27 @@
     }
   ],
   "abouts": [
+    {
+      "id": 1,
+      "version": "2.0.4.6",
+      "expiration": "2025-03-21",
+      "license": {
+        "manufacturer": "GoTrust, Inc.",
+        "type": "PC Unlock",
+        "quota": [
+          {
+            "id": 1,
+            "name": "Windows",
+            "purchased": 100,
+            "used": 98
+          },
+          {
+            "id": 2,
+            "name": "Mac",
+            "purchased": 100,
+            "used": 68
+        ]
+      }
+    }
   ]
 }
