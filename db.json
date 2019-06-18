@@ -1,0 +1,68 @@
+{
+  "settings": [
+  ],
+  "logs": [
+    {
+      "id": 1,
+      "type": "warning",
+      "description": "someone is trying to impersonating the user 001",
+      "timestamp": "2018-08-29T13:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "type": "critical",
+      "description": "server is not responding 002",
+      "timestamp": "2018-08-29T13:05:00.000Z"
+    },
+    {
+      "id": 3,
+      "type": "warning",
+      "description": "someone is trying to impersonating the user 003",
+      "timestamp": "2018-08-29T14:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "type": "error",
+      "description": "server is not responding 004",
+      "timestamp": "2018-08-30T13:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "type": "warning",
+      "description": "someone is trying to impersonating the user 005",
+      "timestamp": "2018-08-30T23:59:00.000Z"
+    },
+    {
+      "id": 6,
+      "type": "warning",
+      "description": "someone is trying to impersonating the user 006",
+      "timestamp": "2018-09-29T13:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "type": "critical",
+      "description": "server is not responding 007",
+      "timestamp": "2018-09-29T13:05:00.000Z"
+    },
+    {
+      "id": 8,
+      "type": "warning",
+      "description": "someone is trying to impersonating the user 008",
+      "timestamp": "2018-09-29T14:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "description": "server is not responding 009",
+      "timestamp": "2018-09-30T13:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "type": "warning",
+      "description": "someone is trying to impersonating the user 010",
+      "timestamp": "2018-10-30T23:59:00.000Z"
+    }
+  ],
+  "abouts": [
+  ]
+}
