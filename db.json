@@ -1,4 +1,51 @@
 {
+  "administrators": [
+    {
+      "id": 1,
+      "name": "Sophia Chiang",
+      "login": "schiang",
+      "password": "pw1",
+      "email": "schiang@gt.com",
+      "mobile": "650-555-0001",
+      "description": "Test Admin 1"
+    },
+    {
+      "id": 2,
+      "name": "Jack Lin",
+      "login": "jlin",
+      "password": "pw2",
+      "email": "jlin@gt.com",
+      "mobile": "650-555-0002",
+      "description": "Test Admin 2"
+    },
+    {
+      "id": 3,
+      "name": "Amy Wang",
+      "login": "awang",
+      "password": "pw3",
+      "email": "awang@gt.com",
+      "mobile": "650-555-0003",
+      "description": "Test Admin 3"
+    },
+    {
+      "id": 4,
+      "name": "Vivian Lu",
+      "login": "vlu",
+      "password": "pw4",
+      "email": "vlu@gt.com",
+      "mobile": "650-555-0004",
+      "description": "Test Admin 4"
+    },
+    {
+      "id": 5,
+      "name": "Marie Wu",
+      "login": "mwu",
+      "password": "pw5",
+      "email": "mwu@gt.com",
+      "mobile": "650-555-0005",
+      "description": "Test Admin 5"
+    }
+  ],
   "settings": [
     {
       "id": 1,
